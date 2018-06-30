@@ -93,7 +93,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .container {
-    background-image: url("./background-small.png");
+    background-image: url("./images/background-small.png");
   }
 
   .center-str {
