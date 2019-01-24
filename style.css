@@ -90,11 +90,14 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
-  img {
-    width: 0px;
-  }
-
   html,body {
     font-size: 14px;
+  }
+
+  img {
+    position: absolute;
+    margin-left: 15rem;
+    margin-right: 3rem;
+    width: 10rem;
   }
 }
