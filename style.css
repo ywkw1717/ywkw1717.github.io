@@ -50,14 +50,20 @@ main h2 {
   max-width: 1000px;
 }
 
-.profile-contents {
+.ul-contents {
   float: left;
   margin-bottom: 2rem;
+  padding-left: 20px;
+  list-style: none;
 }
 
-.like-contents {
+li {
+  margin-bottom: 10px;
+}
+li:before {
+  content: '✓';
   float: left;
-  margin-bottom: 2rem;
+  margin-right: 2px;
 }
 
 .about {
@@ -83,15 +89,12 @@ a:active {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   img {
     width: 0px;
+  }
+
+  html,body {
+    font-size: 14px;
   }
 }
